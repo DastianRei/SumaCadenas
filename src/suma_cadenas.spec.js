@@ -6,7 +6,7 @@ describe("Sumar", () => {
     it("deberia devolver la suma de 1", () => {
         expect(sumarCadenas("1")).toEqual(1);
       });
-      xit("deberia devolver la suma de 1 y 2", () => {
+      it("deberia devolver la suma de 1 y 2", () => {
         expect(sumarCadenas("1,2")).toEqual(3);
       });
       xit("deberia devolver la suma de 2 o mas valores", () => {
