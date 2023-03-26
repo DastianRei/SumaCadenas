@@ -1,5 +1,5 @@
 describe("Sumar", () => {
-    xit("deberia devolver el valor 0", () => {
+    it("deberia devolver el valor 0", () => {
       expect(sumarCadenas("")).toEqual(0);
     });
     xit("deberia devolver la suma de 1", () => {
