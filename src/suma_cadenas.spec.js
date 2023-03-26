@@ -18,7 +18,7 @@ describe("Sumar", () => {
       it("deberia devolver sumar mas de 2 valores por guion", () => {
         expect(sumarCadenas("1-2-3-4-5")).toEqual(15);
       });
-      xit("deberia devolver sumar mas de 2 valores separado por guion o coma", () => {
+      it("deberia devolver sumar mas de 2 valores separado por guion o coma", () => {
         expect(sumarCadenas("1,2,3-4-5")).toEqual(15);
       });
       xit("deberia devolver suma de 2 valores separados por guion o coma o un delimitardor especial ", () => {
